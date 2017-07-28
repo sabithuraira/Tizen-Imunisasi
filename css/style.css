@@ -1,15 +1,3 @@
-table{
-	width: 100%;	
-}
-
- th, td{
-	text-align: center;
-}
-
-td.left-align{
-	text-align: left;
-}
-
 .full-size{
 	width: 80%;
 }
@@ -580,4 +568,35 @@ td.left-align{
 	left: 50%;
 	-webkit-transform: translate(-50%);
 	margin: 0;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #009999;
+}
+
+
+td.left-align{
+	text-align: left;
 }

@@ -6,7 +6,7 @@
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="baby.png"/>
-    <name>imunisasi</name>
+    <name>Jadwal Imunisasi</name>
     <tizen:privilege name="http://tizen.org/privilege/fullscreen"/>
     <tizen:profile name="mobile"/>
 </widget>
